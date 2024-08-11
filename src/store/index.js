@@ -21,12 +21,6 @@ export const mainStore = defineStore("mainData", {
           show: true,
         },
         {
-          label: "抖音",
-          name: "douyin",
-          order: 2,
-          show: true,
-        },
-        {
           label: "知乎",
           name: "zhihu",
           order: 3,
@@ -36,12 +30,6 @@ export const mainStore = defineStore("mainData", {
           label: "36氪",
           name: "36kr",
           order: 4,
-          show: true,
-        },
-        {
-          label: "百度",
-          name: "baidu",
-          order: 5,
           show: true,
         },
         {
@@ -57,12 +45,6 @@ export const mainStore = defineStore("mainData", {
           show: true,
         },
         {
-          label: "澎湃新闻",
-          name: "thepaper",
-          order: 8,
-          show: true,
-        },
-        {
           label: "今日头条",
           name: "toutiao",
           order: 9,
@@ -72,7 +54,7 @@ export const mainStore = defineStore("mainData", {
           label: "百度贴吧",
           name: "tieba",
           order: 10,
-          show: true,
+          show: false,
         },
         {
           label: "稀土掘金",
@@ -90,24 +72,6 @@ export const mainStore = defineStore("mainData", {
           label: "豆瓣电影",
           name: "douban-movie",
           order: 13,
-          show: true,
-        },
-        {
-          label: "原神",
-          name: "genshin",
-          order: 14,
-          show: true,
-        },
-        {
-          label: "崩坏：星穹铁道",
-          name: "starrail",
-          order: 16,
-          show: true,
-        },
-        {
-          label: "LOL",
-          name: "lol",
-          order: 15,
           show: true,
         },
         {
@@ -129,21 +93,9 @@ export const mainStore = defineStore("mainData", {
           show: true,
         },
         {
-          label: "NGA",
-          name: "ngabbs",
-          order: 20,
-          show: true,
-        },
-        {
           label: "HelloGitHub",
           name: "hellogithub",
           order: 21,
-          show: true,
-        },
-        {
-          label: "简书",
-          name: "jianshu",
-          order: 22,
           show: true,
         },
         {
